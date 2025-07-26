@@ -1,0 +1,43 @@
+26/1:
+Why Unit Testing
+-Test your own code
+What Unit Testing is
+Types: Beginning to delivery of the product
+Unit Testing
+Integration Testing
+System Testing
+UAT 
+Unit Testing: Let say to test out a particular method of function within a piece of code
+-more than one unit TC can be written for a single method, to test out various types of inputs
+----------------
+Unit Testing Frameworks:
+unittest: comes with python installation
+pytest and nose: these libraries needs to be installed
+-------------------
+Unittest terminology:
+1.Test Case: is a simple unittest written to test a single method not the whole module
+		primarily testing a simple method
+2.Test Suite: is where you combine multiple test cases to test multiple methods
+		invoking multiple test cases
+3.Test runner: is piece of component that is used to run a test suite or a test case
+4.Unit under Test: actual of piece of production code that is being tested
+5.Test Fixture: setup- setting up the required config and envi for your code 
+		and tear down- and then releasing them, it is ideal to do so...
+--------------------
+how: simple unit test for a function
+-inorder to create a TC, you need to first create a class
+-and within class you will create methods that would start with test_, and create your test cases
+to run in the terminal: python -m unittest <module name>
+-writing the unittest methods should be very descriptive
+------
+unit test for a class: test cases for methods that are part of a class
+-when you have a class you need to import the class methods and create the test cases
+-------
+ways to run the tests:
+-directly from the GUI
+-and by editing the configuration for running the unittests
+-right click on a particular test case and run, then you can run only a particular test case from that test module
+	this might be useful when you run complex test scenarios which might take time and you want to run only a particular test scenario
+-------
+
+

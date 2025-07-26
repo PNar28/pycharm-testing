@@ -1,0 +1,11 @@
+27/1: E
+-Test Discovery: unittest module has the capability to discover TCs
+                 for it to do that we will have to adhere to certain things
+ 1.the class that is implementing the methods/test cases must be of the type 'TestCase'
+ 2.all th method names must start with 'test', else fails to discover as a TC
+-Handling Errors: for negative testing where test case fails, you need to handle such TCs
+                  need to use context managers
+                  you expect an error as a part pf your TC and how you handle those errors using "context managers"
+                  
+
+
